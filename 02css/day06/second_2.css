@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    
+}
+header{
+    background-color: salmon;
+    position: fixed;
+    width: 100%;
+}
+main{
+    /* why not mergin? */
+    /* margin border padding */
+    
+    padding-top: 60px;
+}

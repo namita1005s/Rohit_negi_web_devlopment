@@ -1,0 +1,47 @@
+.container {
+   background-color: aqua;
+   margin-left: 200px;
+   margin-top: 150px;
+   position: relative;
+    height: 1000px;
+
+}
+.box{
+    
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    
+    
+
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+    position: fixed;
+    top: 30px;
+    
+
+    /* position: absolute; */
+    /* absolute apni position chor deta h koi bhi element a sakta h */
+    /* position: relative; */
+    /* origional s 20px neeche kar do originall position s */
+    /* top: 30px;
+    right: 30px; */
+    /* top,bottom,left,right */
+    /* static by deafault hota h */
+}
+.box3{
+    background-color: green;
+   
+}
+.box4{
+    background-color: blue;
+}
+/* top,bottom,left,right */
+/* static */
+/* relative */
+/* absolute */
+/* sticky */

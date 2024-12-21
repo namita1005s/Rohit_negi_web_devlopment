@@ -1,40 +1,55 @@
 h1 {
-    
     background-color: aqua;
-            width: 300px;
-            height: 100px;
-            border-style: solid;
-            padding: 10px;
-            border-radius: 20px;
-            text-align: center;
-            margin: 20px auto; 
-            /* tum chahte ho ki woh center mein aaye, toh margin: auto automatically dono sides (left aur right) ka equal space daal deta hai. */
-            /* Centers the block element */
-            box-sizing: border-box;
-            /* Agar tum box-sizing: border-box; lagate ho, toh width aur height padding aur border ko include karte hain.
-            Matlab, jo width set ki hai (300px), usme padding aur border included rahenge. */
-    
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px auto;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
+
+h1:hover {
+    background-color: lightcoral;
+    color: white;
+    transform: scale(1.1);
+}
+
 ul {
     background-color: yellow;
-    /* border-width: 10px;
-    border-color: aqua;
-    border-style: double; */
     border: 10px aqua double;
-    padding: 20px ;
+    padding: 20px;
+    transition: all 0.3s ease;
 }
+
+ul:hover {
+    background-color: orange;
+    border-color: darkblue;
+    transform: rotate(5deg);
+}
+
 body {
     background-color: pink;
     margin: 20px 50px 15px 50px;
-    
 }
+
 p {
     background-color: lightgreen;
     border-width: 10px;
-    border-color:blueviolet;
+    border-color: blueviolet;
     border-style: dotted;
     padding: 10px;
+    transition: all 0.3s ease;
 }
+
+p:hover {
+    background-color: darkgreen;
+    color: white;
+    border-style: solid;
+}
+
 h2 {
     background-color: lightblue;
     border-style: solid;
@@ -42,11 +57,26 @@ h2 {
     border-left-width: 10px;
     border-left-color: red;
     border-left-style: double;
+    transition: all 0.3s ease;
 }
+
+h2:hover {
+    border-left-color: darkred;
+    background-color: lightgray;
+    font-size: 1.5em;
+}
+
 ol {
     background-color: lightyellow;
     border-width: 10px 30px;
-    /* top,right,bottom ,left if u give 4 size */
     border-color: aqua;
-    border-style:groove;
+    border-style: groove;
+    transition: all 0.3s ease;
 }
+
+ol:hover {
+    background-color: lightpink;
+    border-width: 15px 40px;
+    border-color: purple;
+}
+/* CSS pseudo-class ka use kisi bhi HTML element ke mouse ke upar aane par special styling apply karne ke liye hota hai. */
